@@ -277,10 +277,12 @@
                                         <p></p>
                                         <li>交易時間點與頻率:比如用戶由於星期一到五白天需要上班，晚上12點入睡，通常都會在下午5點到12點下單，但某一天突然在凌晨進行交易，為異常狀況；交易間隔過短或會錢入帳時間過長也會被視為異常來源。比如好幾筆交易雖然在金額上沒問題，彼此間隔的時間卻過短，像是用戶在交易時沒有經過考慮一樣，也會成為判定為異常警訊的原因之一。</li> 
                                         <p></p>
-                                        <li>IP位址-IP位址包含一些可用的資訊，包括所在國家、時區、位置、提供用戶網路的網路供應商，甚至所在縣市、街道等。有兩種偵測方式:
-                                            <li>    判斷用戶端的:當用戶交易時使用的IP位址顯示出的地區與所在地與平常不同，比如原本在台灣，三小時後卻突然出現在美國時，會因為「兩個位置之間預期移動時間過短」以及「美國為非經常性活動地區」等原因，被判定為異常狀況。</li>
-                                            <li>    機器學習模型也能透過建立龐大資料庫，偵測賣方交易網站是否為可疑的IP位址，而此已有實際案例</li>
-                                        </li>
+                                        <li>IP位址-IP位址包含一些可用的資訊，包括所在國家、時區、位置、提供用戶網路的網路供應商，甚至所在縣市、街道等。有兩種偵測方式:</li>
+                                        <p></p>
+                                        <li>    判斷用戶端的:當用戶交易時使用的IP位址顯示出的地區與所在地與平常不同，比如原本在台灣，三小時後卻突然出現在美國時，會因為「兩個位置之間預期移動時間過短」以及「美國為非經常性活動地區」等原因，被判定為異常狀況。</li>
+                                        <p></p>
+                                        <li>    機器學習模型也能透過建立龐大資料庫，偵測賣方交易網站是否為可疑的IP位址，而此已有實際案例</li>
+                                        <p></p>
                                     </ul>
                                 </div>
                             </div>
@@ -305,32 +307,6 @@
                                         <li>使用者回饋機制：建立使用者回報管道，提高準確率，獲取有效資訊</li>
                                         <p></p>
                                         <li>IP信譽分數資料庫：將過往紀錄進行分類及分等，提早偵測異常帳戶或交易，提出示警或是阻斷交易</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-blog-area blog-style-2 mb-50 wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1000ms">
-                        <div class="row align-items-center">
-                            <div class="col-12 col-md-6">
-                                <div class="single-blog-thumbnail">
-                                    <img src="img/blog-img/bigquery_logo.png" alt="">
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <!-- Blog Content -->
-                                <div class="single-blog-content">
-                                    <div class="line"></div>
-                                    <a href="#" class="post-tag">Model design concepts and mechanisms</a>
-                                    <h4><a href="#" class="post-headline">模型設計概念、機制</a></h4>
-                                    <ul>
-                                        <li>利用BigQuery的歷史交易資訊作為訓練資料集</li>
-                                        <p></p>
-                                        <li>定義相關常數、批次與即時特徵工程作為訓練模型的基礎</li>
-                                        <p></p>
-                                        <li>使用BigQuery ML的Logistic regression model 進行訓練與預測</li>
-                                        <p></p>
-                                        <li>top_feature_attributions : 找出最重要的特徵</li>
                                     </ul>
                                 </div>
                             </div>
