@@ -26,7 +26,7 @@
     }
 
     th {
-      background-color: #f2f2f2;
+      background-color: #935ef5;
     }
     </style>
 </head>
@@ -145,12 +145,11 @@
                 <!-- Single Blog Area -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-catagory-area clearfix mb-100">
-                        <img src="img/blog-img/1.jpg" alt="">
+                        <img src="img/blog-img/Group 12.jpg" alt="">
                         <!-- Catagory Title -->
                         <div class="catagory-title">
-                            <a href="https://www.canva.com/design/DAF3_8-QJ7U/C1GBz5Uk5KyWafOcsVe6RQ/edit?utm_content=DAF3_8-QJ7U&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
-                                <p>Chinese version</p>
-                                <p>中文海報</p>
+                            <a href="https://docs.google.com/document/d/1L5g-gkAVQZ2h2QL0wXAHict7bEQRPFCogb0d5bsW3kw/edit">
+                                <p>info sheet</p>
                             </a>
                         </div>
                     </div>
@@ -269,6 +268,19 @@
                                         <li>數位部提出第三方支付業者需建立客戶審查管理制度， 強化金融機構對客戶進行KYC（Know Your Customer）且主動查核警示帳戶。</li>
                                         <p></p>
                                         <li>機會點：彙整過往交易紀錄給予評分，留意分數過低帳戶，避免風險發生</li>
+                                        <p></p>
+                                        <li>以下用實際可能發生的案例加以解釋:</li>
+                                        <p></p>
+                                        <li>金額、金流:當用戶的虛擬帳戶出現與平常消費金額高出數倍的交易，會要求用戶進一步用其他資訊做驗證。</li>
+                                        <p></p>
+                                        <li>交易品項:比如系統判定用戶平時都使用此第三方支付帳戶作日用品消費，但在某筆交易中卻突然在線上珠寶商店下單，視為異常狀況。</li>
+                                        <p></p>
+                                        <li>交易時間點與頻率:比如用戶由於星期一到五白天需要上班，晚上12點入睡，通常都會在下午5點到12點下單，但某一天突然在凌晨進行交易，為異常狀況；交易間隔過短或會錢入帳時間過長也會被視為異常來源。比如好幾筆交易雖然在金額上沒問題，彼此間隔的時間卻過短，像是用戶在交易時沒有經過考慮一樣，也會成為判定為異常警訊的原因之一。</li> 
+                                        <p></p>
+                                        <li>IP位址-IP位址包含一些可用的資訊，包括所在國家、時區、位置、提供用戶網路的網路供應商，甚至所在縣市、街道等。有兩種偵測方式:
+                                            <li>    判斷用戶端的:當用戶交易時使用的IP位址顯示出的地區與所在地與平常不同，比如原本在台灣，三小時後卻突然出現在美國時，會因為「兩個位置之間預期移動時間過短」以及「美國為非經常性活動地區」等原因，被判定為異常狀況。</li>
+                                            <li>    機器學習模型也能透過建立龐大資料庫，偵測賣方交易網站是否為可疑的IP位址，而此已有實際案例</li>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -293,6 +305,32 @@
                                         <li>使用者回饋機制：建立使用者回報管道，提高準確率，獲取有效資訊</li>
                                         <p></p>
                                         <li>IP信譽分數資料庫：將過往紀錄進行分類及分等，提早偵測異常帳戶或交易，提出示警或是阻斷交易</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-blog-area blog-style-2 mb-50 wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1000ms">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-6">
+                                <div class="single-blog-thumbnail">
+                                    <img src="img/blog-img/bigquery_logo.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <!-- Blog Content -->
+                                <div class="single-blog-content">
+                                    <div class="line"></div>
+                                    <a href="#" class="post-tag">Model design concepts and mechanisms</a>
+                                    <h4><a href="#" class="post-headline">模型設計概念、機制</a></h4>
+                                    <ul>
+                                        <li>利用BigQuery的歷史交易資訊作為訓練資料集</li>
+                                        <p></p>
+                                        <li>定義相關常數、批次與即時特徵工程作為訓練模型的基礎</li>
+                                        <p></p>
+                                        <li>使用BigQuery ML的Logistic regression model 進行訓練與預測</li>
+                                        <p></p>
+                                        <li>top_feature_attributions : 找出最重要的特徵</li>
                                     </ul>
                                 </div>
                             </div>
